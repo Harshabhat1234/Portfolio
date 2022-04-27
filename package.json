@@ -1,0 +1,27 @@
+{
+  "name": "static-website",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshabhat1234/portfolio-harshabhat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshabhat1234/portfolio-harshabhat/issues"
+  },
+  "homepage": "https://github.com/Harshabhat1234/portfolio-harshabhat#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "mail-receive": "^0.0.8",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15"
+  },
+  "description": ""
+}
