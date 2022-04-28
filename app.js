@@ -16,13 +16,13 @@ app.post("/", (req,res)=>{
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'Recruiter.JobSpace@gmail.com',
-      pass: 'jobspace*123'
+      user: 'harshabhatportfolio@gmail.com',
+      pass: 'cb190045$'
     }
   });
   var mailOptions = {
-    from: 'Recruiter.JobSpace@gmail.com',
-    to: 'Recruiter.JobSpace@gmail.com',
+    from: 'harshabhatportfolio@gmail.com',
+    to: 'harshabhatportfolio@gmail.com',
     subject: req.body.subject,
     text: "Name : " + req.body.name   +  " EMAIL : " + req.body.email + " SUBJECT : "+ req.body.message
   };
